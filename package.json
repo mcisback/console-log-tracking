@@ -1,0 +1,22 @@
+{
+  "name": "console-log-tracking",
+  "version": "1.0.0",
+  "description": "Send all js frontend logs and errors (console.log, etc...) to remote machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Marco Caggiano <mcisback@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
